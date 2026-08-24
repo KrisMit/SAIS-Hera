@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build artifacts (C / LEON3 port — kept out of the public repo)
+*.o
+*.elf
+*.bin
+
+# ESA "For ESA Official Use Only" material must never be committed here
+esa/
+annexes/
+*_ESA_Official*
+hera_interface.h
